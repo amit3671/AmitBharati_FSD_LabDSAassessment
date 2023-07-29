@@ -80,7 +80,7 @@ public void print_pairs(int i, int value) {
 		for(int p=i-1; p>l ; p--) {
 		
 			if(array[l]+array[p] == value) {
-		System.out.print("Pair is (" +array[l]+ ","+ array[p]+ ")");
+		System.out.print("Pair is (" +array[l]+ ","+ array[p]+ ")\n");
 			d++;
 			}
 		}
